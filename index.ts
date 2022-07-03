@@ -6,6 +6,7 @@ import { artistResolver } from "./modules/artists/resolver"
 let typeDefs = artist
 let resolvers = artistResolver
 const server = new ApolloServer({ typeDefs, resolvers })
+console.log(`Решаем проблемы с деплоем`)
 
 server.listen().then(({ url }) => {
     console.log(`Server is running on ${url}`)
