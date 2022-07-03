@@ -1,0 +1,25 @@
+{
+  "name": "week-5",
+  "version": "1.0.0",
+  "description": "First yoyu need to launch REST Api provided by instructor.\r For that head to https://github.com/antosha14/nodejs2022Q2-service and clone the repo.\r Then install all packages using: npm i.\r Launch mongo db in docker using: docker run -d -p 27017:27017 --name test-mongo mongo:latest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antosha14/node_week5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antosha14/node_week5/issues"
+  },
+  "homepage": "https://github.com/antosha14/node_week5#readme",
+  "dependencies": {
+    "apollo-server": "^3.9.0",
+    "graphql": "^16.5.0",
+    "nodemon": "^2.0.18"
+  }
+}
